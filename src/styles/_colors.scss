@@ -1,0 +1,19 @@
+@import '../../node_modules/compass-sass-mixins/lib/compass/utilities/color/_contrast.sass';
+
+$primary-color: #3f4346;
+$accent-color: #4d4e4e;
+
+$contrasted-primary-text: #322f2f; // contrast-color($primary-color, lighten($accent-color, 10), darken($accent-color, 10));
+$contrasted-accent-text: #903737; // contrast-color($accent-color, lighten($primary-color, 10), darken($primary-color, 10));
+
+$primary-dark: darken($primary-color, 8%);
+$contrasting-primary-text-color: black; // choose-contrast-color($primary-color);
+$contrasting-accent-text-color: rgb(68, 64, 64); // choose-contrast-color($accent-color);
+
+$shadow-box-color: #860f0fbf;
+$search-background-image-color: #ffffff4d;
+$light-grey-border: #464040;
+$accent-text-color: darken($accent-color, 86.67);
+
+$sky-blue: darken(#000507,100%);
+$sky-dark-blue: darken(#000507,100%);

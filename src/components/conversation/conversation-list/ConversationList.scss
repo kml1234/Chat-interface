@@ -1,0 +1,9 @@
+@import '../../../styles/_colors';
+
+$chat-shell-background: darken($accent-color, 0%);
+#conversation-list {
+    grid-area: conversation-list;
+    background: $chat-shell-background;
+    overflow-y: scroll;
+    
+}
